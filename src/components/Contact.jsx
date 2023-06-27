@@ -81,7 +81,7 @@ export const Contact = () => {
           <input
             className="border border-gray-300 rounded-md px-3 py-2 mt-1 focus:outline-none focus:ring-blue-500 focus:border-blue-500  "
             type="text"
-            placeholder="name/company"
+            placeholder="Name/Company"
             onChange={(e) => setName(e.target.value)}
             value={name}
           />
@@ -94,7 +94,7 @@ export const Contact = () => {
           <input
             className="border border-gray-300 rounded-md px-3 py-2 mt-1 focus:outline-none focus:ring-blue-500 focus:border-blue-500"
             type="text"
-            placeholder="email"
+            placeholder="Email"
             onChange={(e) => setEmail(e.target.value)}
             value={email}
           />
@@ -107,7 +107,7 @@ export const Contact = () => {
           <input
             className="border border-gray-300 rounded-md px-3 py-2 mt-1 focus:outline-none focus:ring-blue-500 focus:border-blue-500"
             type="text"
-            placeholder="phone number"
+            placeholder="Phone number"
             onChange={(e) => setContact(e.target.value)}
             value={contact}
           />
