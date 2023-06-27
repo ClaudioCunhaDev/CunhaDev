@@ -2,7 +2,7 @@ import React from "react";
 import Button from "./Button";
 export const ProjectComponent = (props) => {
   return (
-    <div className="h-[28vh] w-[15rem] bg-white border-2 gap-5 p-3 flex flex-col items-center md:w-[30rem] min-[2560px]:h-[20vh]">
+    <div className="h-[28vh] w-[15rem] bg-white rounded-lg border-2 gap-5 p-3 flex flex-col items-center md:w-[30rem] min-[2560px]:h-[20vh]">
       <div className="flex gap-3">
         <img
           src={props.src}

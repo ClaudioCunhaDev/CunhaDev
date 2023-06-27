@@ -52,7 +52,11 @@ export default () => {
               key={image}
               className="flex justify-center items-center"
             >
-              <img src={image} alt="Image" className="max-h-[65vh]" />
+              <img
+                src={image}
+                alt="Image"
+                className="max-h-[65vh] rounded-lg"
+              />
             </SplideSlide>
           );
         })}
