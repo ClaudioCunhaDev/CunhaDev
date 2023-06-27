@@ -7,7 +7,7 @@ import IconJavascript from "../assets/IconJavascript";
 import IconHtml5 from "../assets/IconHtml5";
 import IconBxlCss3 from "../assets/IconBxlCss3";
 import IconLogoReact from "../assets/IconLogoReact";
-import IconNextjs from "../assets/IconNextJs";
+import IconNext from "../assets/IconNext";
 import IconTailwindcss from "../assets/IconTailwindcss";
 import IconExpress from "../assets/IconExpress";
 import IconMongodb from "../assets/IconMongodb";
@@ -73,7 +73,7 @@ export const Home = () => {
                 <IconLogoReact />
               </div>
               <div className="h-16 w-16 rounded-full border-2 bg-white flex justify-center items-center text-[1.5rem] min-[1920px]:text-[2.5rem] min-[1920px]:h-24 min-[1920px]:w-24">
-                <IconNextjs />
+                <IconNext />
               </div>
               <div className="h-16 w-16 rounded-full border-2 bg-white flex justify-center items-center text-[1.7rem] min-[1920px]:text-[2.5rem] min-[1920px]:h-24 min-[1920px]:w-24">
                 <IconTailwindcss />

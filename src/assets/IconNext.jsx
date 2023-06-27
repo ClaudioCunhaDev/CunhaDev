@@ -1,6 +1,6 @@
 import * as React from "react";
 
-function IconNextjs(props) {
+function IconNext(props) {
   return (
     <svg
       fill="none"
@@ -19,4 +19,4 @@ function IconNextjs(props) {
   );
 }
 
-export default IconNextjs;
+export default IconNext;
