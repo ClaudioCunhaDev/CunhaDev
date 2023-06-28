@@ -14,6 +14,7 @@ import IconMongodb from "../assets/IconMongodb";
 import IconNodejs from "../assets/IconNodejs";
 import IconBootstrap from "../assets/IconBootstrap";
 import IconSass from "../assets/IconSass";
+import { MaquinaDeEscrever } from "./MaquinaDeEscrever";
 
 export const Home = () => {
   return (
@@ -34,10 +35,14 @@ export const Home = () => {
               </div>
             </div>
           </div>
-          <div className="flex flex-col items-center mt-5 text-center gap-3">
-            <h1 className="text-title text-[2.5rem] font-bold">
-              FullStack DEVELOPER
-            </h1>
+          <div className="flex flex-col items-center mt-5 text-center gap-3 ">
+            <div className="text-title text-[2.5rem] font-bold">
+              <MaquinaDeEscrever
+                text={"FullStack DEVELOPER"}
+                delay={50}
+                esconderCursor
+              />
+            </div>
             <p className="lg:w-[25rem] min-[1920px]:text-[2rem]">
               Hi, I'm Cláudio Cunha. A passionate Front-end React Developer
               based in Porto, Portugal. 🚩
