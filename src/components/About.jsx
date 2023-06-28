@@ -13,7 +13,7 @@ export const About = () => {
           <img
             src={dek}
             alt=""
-            className="w-[16rem] h-[10rem] rounded-3xl md:h-[30vh] md:w-[25rem] lg:h-[60vh] lg:w-[30rem] lg:rounded-2xl 2xl:h-[55vh] min-[1920px]:w-[40rem] min-[2560px]:h-[38vh] min-[2560px]:w-[50rem]"
+            className="w-[16rem] h-[12rem] rounded-3xl md:h-[40vh] md:w-[25rem] lg:h-[60vh] lg:w-[37rem] lg:rounded-2xl 2xl:h-[55vh] min-[1920px]:w-[37rem] min-[2560px]:h-[38vh] min-[2560px]:w-[37rem]"
           />
           <div className="divImg absolute right-0 bottom-0 ">
             <img

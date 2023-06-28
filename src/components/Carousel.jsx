@@ -61,6 +61,15 @@ export default () => {
           );
         })}
       </Splide>
+      <style>
+        {`
+        .custom-splide-arrow {
+          background-color: red;
+          color: white;
+          /* Outros estilos desejados */
+        }
+        `}
+      </style>
     </div>
   );
 };

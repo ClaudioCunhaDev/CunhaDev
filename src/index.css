@@ -80,3 +80,6 @@
     transform: rotate(359deg);
   }
 }
+.custom-splide-arrow.splide__arrow::before {
+  background-color: red;
+}

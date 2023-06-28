@@ -1,6 +1,4 @@
-import React, { useState } from "react";
-import { FaLinkedin } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
+import React, { useEffect, useState } from "react";
 import emailjs from "@emailjs/browser";
 
 export const Contact = () => {
@@ -73,97 +71,89 @@ export const Contact = () => {
       <h2 className="text-blue-500 font-bold text-[1.4rem] min-[1920px]:text-[2rem]">
         CONTACT ME
       </h2>
-      <div className="flex">
+      <div className="flex w-full ">
         <form
-          className="flex flex-col gap-3"
+          className="flex flex-col gap-6 w-full items-center "
           onSubmit={(e) => handleSendEmail(e)}
         >
-          <input
-            className="border border-gray-300 rounded-md px-3 py-2 mt-1 focus:outline-none focus:ring-blue-500 focus:border-blue-500  "
-            type="text"
-            placeholder="Name/Company"
-            onChange={(e) => setName(e.target.value)}
-            value={name}
-          />
-          {nameError && (
-            <div className=" px-3 py-2 text-red-500">
-              <h2>Preenche o nome corretamente.</h2>
-            </div>
-          )}
+          <div className="flex flex-col w-full items-center">
+            <input
+              className={`${
+                nameError && "border-red-500"
+              }  border-gray-300 border-2 min-w-[15rem] w-[50%] rounded-md px-3 py-2 mt-1 focus:outline-none focus:ring-blue-500 focus:border-blue-500`}
+              type="text"
+              placeholder="Name/Company"
+              onChange={(e) => setName(e.target.value)}
+              value={name}
+            />
+            {nameError && (
+              <span className=" text-red-500 h-1">
+                Preenche o nome corretamente.
+              </span>
+            )}
+          </div>
+          <div className="flex flex-col w-full items-center">
+            <input
+              className={`${
+                emailError && "border-red-500"
+              }  border-gray-300 border-2 min-w-[15rem] w-[50%] rounded-md px-3 py-2 mt-1 focus:outline-none focus:ring-blue-500 focus:border-blue-500`}
+              type="text"
+              placeholder="Email"
+              onChange={(e) => setEmail(e.target.value)}
+              value={email}
+            />
 
-          <input
-            className="border border-gray-300 rounded-md px-3 py-2 mt-1 focus:outline-none focus:ring-blue-500 focus:border-blue-500"
-            type="text"
-            placeholder="Email"
-            onChange={(e) => setEmail(e.target.value)}
-            value={email}
-          />
+            {emailError && (
+              <div className=" px-3 py-2 text-red-500">
+                <h2>Preenche o campo com um email válido.</h2>
+              </div>
+            )}
+          </div>
+          <div className="flex flex-col w-full items-center">
+            <input
+              className="border-2 min-w-[15rem] w-[50%] border-gray-300 rounded-md px-3 py-2 mt-1 focus:outline-none focus:ring-blue-500 focus:border-blue-500"
+              type="text"
+              placeholder="Phone number"
+              onChange={(e) => setContact(e.target.value)}
+              value={contact}
+            />
 
-          {emailError && (
-            <div className=" px-3 py-2 text-red-500">
-              <h2>Preenche o campo com um email válido.</h2>
-            </div>
-          )}
-          <input
-            className="border border-gray-300 rounded-md px-3 py-2 mt-1 focus:outline-none focus:ring-blue-500 focus:border-blue-500"
-            type="text"
-            placeholder="Phone number"
-            onChange={(e) => setContact(e.target.value)}
-            value={contact}
-          />
-
-          {numberError && (
-            <div className=" px-3 py-2 text-red-500">
-              <h2>Preenche o campo com um número válido.</h2>
-            </div>
-          )}
-
-          <textarea
-            className="border border-gray-300 rounded-md px-3 py-2 mt-1 resize-none focus:outline-none focus:ring-blue-500 focus:border-blue-500 xl:h-[18vh] min-[2560px]:h-[30vh] min-[2560px]:w-[30rem]"
-            placeholder="Write your message..."
-            onChange={(e) => setMessage(e.target.value)}
-            value={message}
-          />
-          {messageError && (
-            <div className=" px-3 py-2 text-red-500">
-              <h2>Preenche o campo com uma mensagem.</h2>
-            </div>
-          )}
+            {numberError && (
+              <div className=" px-3 py-2 text-red-500">
+                <h2>Preenche o campo com um número válido.</h2>
+              </div>
+            )}
+          </div>
+          <div className="flex flex-col w-full items-center">
+            <textarea
+              className={`${
+                messageError && "border-red-500"
+              }  border-gray-300 border-2 min-w-[15rem] h-[30vh] w-[50%] rounded-md px-3 py-2 mt-1 focus:outline-none focus:ring-blue-500 focus:border-blue-500`}
+              placeholder="Write your message..."
+              onChange={(e) => setMessage(e.target.value)}
+              value={message}
+            />
+            {messageError && (
+              <div className=" px-3 py-2 text-red-500">
+                <h2>Preenche o campo com uma mensagem.</h2>
+              </div>
+            )}
+          </div>
           {visible && (
-            <div className=" px-3 py-2 text-red-500">
+            <div className=" text-red-500">
               <h2>Preenche todos os campos</h2>
             </div>
           )}
-
           <button
-            className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50"
+            className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded items-center"
             type="submit"
           >
             Submit
           </button>
         </form>
       </div>
-      <button className="border-2 bg-slate-300 pointer p-3 z-10">
-        <a href="/CunhaCVPT.pdf" download>
-          Download CV
-        </a>
-      </button>
       <div className="bg-[#000000c0] min-h-[20vh] text-white font-bold text-[1rem] p-3 w-full text-center justify-center items-center flex flex-col gap-3 min-[1920px]:text-[2rem]">
         <h2 className="">Copyright © 2023. All rights are reserved</h2>
-        <div className="flex gap-3 text-[1.5rem] min-[1920px]:text-[2.5rem]">
-          <a
-            className="cursor-pointer"
-            href="https://www.linkedin.com/in/claudionogueiradacunha/"
-          >
-            <FaLinkedin />
-          </a>
-          <a
-            className="cursor-pointer"
-            href="https://github.com/ClaudioCunhaDev"
-          >
-            <FaGithub />
-          </a>
-        </div>
       </div>
     </div>
   );
