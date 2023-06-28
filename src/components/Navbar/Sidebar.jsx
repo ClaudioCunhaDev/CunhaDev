@@ -31,6 +31,12 @@ export default (props) => {
         <a className="menu-item" href="#projects" onClick={() => closeMenu()}>
           Projects
         </a>
+        <a className="menu-item" href="#skills" onClick={() => closeMenu()}>
+          Skills
+        </a>
+        <a className="menu-item" href="#experience" onClick={() => closeMenu()}>
+          Experience
+        </a>
         <a
           className="menu-item"
           href="#certificates"

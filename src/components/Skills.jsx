@@ -15,11 +15,11 @@ import uxui from "../assets/skills/uxui.png";
 import { IndividualSkill } from "./IndividualSkill";
 
 export const Skills = () => (
-  <div className="bg-corFundo2 p-3">
-    <h2 className="text-blue-500 mb-3 text-center font-bold text-[1.4rem] min-[1920px]:text-[2rem]">
+  <div className="bg-corFundo2 pt-[10vh] p-3" id="skills">
+    <h2 className="text-blue-500 mb-10 text-center font-bold text-[1.4rem] min-[1920px]:text-[2rem]">
       SKILLS
     </h2>
-    <div className="p-3 flex flex-col gap-3 md:grid md:grid-cols-2 lg:grid lg:grid-cols-3">
+    <div className="flex flex-col gap-3 md:grid md:grid-cols-2 lg:grid lg:grid-cols-3">
       <IndividualSkill src={html} alt={"Icon html"} skill={"HTML"} />
       <IndividualSkill src={css} alt={"Icon Css"} skill={"Css"} />
       <IndividualSkill
