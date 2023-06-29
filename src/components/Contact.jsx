@@ -56,6 +56,7 @@ export const Contact = () => {
           draggable: true,
           progress: undefined,
           theme: "light",
+          transition: Zoom,
         });
         setNameError(true);
         return;
@@ -69,6 +70,7 @@ export const Contact = () => {
           draggable: true,
           progress: undefined,
           theme: "light",
+          transition: Zoom,
         });
         setEmailError(true);
         return;
@@ -82,6 +84,7 @@ export const Contact = () => {
           draggable: true,
           progress: undefined,
           theme: "light",
+          transition: Zoom,
         });
         setNumberError(true);
         return;
@@ -95,6 +98,7 @@ export const Contact = () => {
           draggable: true,
           progress: undefined,
           theme: "light",
+          transition: Zoom,
         });
         setMessageError(true);
         return;
@@ -110,6 +114,7 @@ export const Contact = () => {
         draggable: true,
         progress: undefined,
         theme: "light",
+        transition: Zoom,
       });
 
       const templateParams = {
