@@ -40,14 +40,14 @@ export const Home = () => {
                 esconderCursor
               />
             </div>
-            <p className="lg:w-[25rem] min-[1920px]:text-[2rem]">
+            <p className="lg:w-[25rem] min-[1920px]:text-[2rem] text-[1.5rem]">
               Hi, I'm Cláudio Cunha. A passionate Front-end React Developer
               based in Porto, Portugal. 🚩
             </p>
             <div>
-              <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded inline-flex items-center">
+              <button className="bg-blue-500 hover:bg-blue-600 text-white text-[1.3rem] font-bold py-2 px-4 rounded inline-flex items-center w-[15rem] h-[5vh] justify-center">
                 <svg
-                  class="fill-current w-4 h-4 mr-2"
+                  class="fill-current w-5 h-5 mr-2"
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 20 20"
                 >
@@ -69,7 +69,7 @@ export const Home = () => {
           </div>
         </div>
         <div className="mt-5 flex flex-col items-center gap-5 lg:flex-row lg:justify-center lg:items-start min-[1920px]:items-center">
-          <h1 className="border-b-2 border-gray-500 font-medium text-[1.2rem] lg:text-[1.5rem] lg:border-r-2 lg:border-b-0 lg:p-3 min-[1920px]:text-[3rem]">
+          <h1 className="border-b-2 border-gray-500 font-medium text-[1.8rem] lg:text-[2rem] lg:border-r-2 lg:border-b-0 lg:p-3 min-[1920px]:text-[2.7rem]">
             Tech Stack
           </h1>
           <div className="flex flex-col gap-3 pb-5 lg:flex-row ">

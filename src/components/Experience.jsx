@@ -3,7 +3,7 @@ import { IndividualExperience } from "./IndividualExperience";
 
 export const Experience = () => (
   <div className="bg-corFundo1 pt-[10vh] min-h-[100vh] p-3" id="experience">
-    <h2 className="text-blue-500 mb-3 text-center font-bold text-[1.4rem] min-[1920px]:text-[2rem]">
+    <h2 className="text-blue-500 mb-3 text-center font-bold text-[2rem]">
       EXPERIENCE
     </h2>
     <div className="min-h-[80vh] flex flex-col justify-around items-center">

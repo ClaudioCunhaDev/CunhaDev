@@ -68,9 +68,7 @@ export const Contact = () => {
       id="contact"
       className="bg-corFundo1 relative w-full pt-[10vh] flex flex-col items-center gap-5"
     >
-      <h2 className="text-blue-500 font-bold text-[1.4rem] min-[1920px]:text-[2rem]">
-        CONTACT ME
-      </h2>
+      <h2 className="text-blue-500 font-bold text-[2rem]">CONTACT ME</h2>
       <div className="flex w-full ">
         <form
           className="flex flex-col gap-6 w-full items-center "
@@ -145,7 +143,7 @@ export const Contact = () => {
             </div>
           )}
           <button
-            className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded items-center"
+            className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded items-center w-[10rem]"
             type="submit"
           >
             Submit

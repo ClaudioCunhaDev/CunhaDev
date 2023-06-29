@@ -3,16 +3,7 @@ function Button({ text, href }) {
     <a
       href={href}
       target="_blank"
-      className="bg-[#ababab]
-  text-[#fff]
-  rounded-[10px]
-  p-3
-  cursor-pointer
-  h-8
-  flex
-  justify-center
-  items-center
-"
+      className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded items-center"
     >
       {text}
     </a>

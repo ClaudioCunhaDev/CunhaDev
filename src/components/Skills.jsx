@@ -4,7 +4,7 @@ import html from "../assets/skills/html.png";
 import css from "../assets/skills/css.svg";
 import bootstrap from "../assets/skills/bootstrap.jpg";
 import express from "../assets/skills/express.png";
-import mongodb from "../assets/skills/mongodb.svg";
+import mongodb from "../assets/skills/mongodb.png";
 import next from "../assets/skills/next.png";
 import node from "../assets/skills/node.png";
 import react from "../assets/skills/react.png";
@@ -16,7 +16,7 @@ import { IndividualSkill } from "./IndividualSkill";
 
 export const Skills = () => (
   <div className="bg-corFundo2 pt-[10vh] p-3" id="skills">
-    <h2 className="text-blue-500 mb-10 text-center font-bold text-[1.4rem] min-[1920px]:text-[2rem]">
+    <h2 className="text-blue-500 mb-10 text-center font-bold text-[2rem]">
       SKILLS
     </h2>
     <div className="flex flex-col gap-3 md:grid md:grid-cols-2 lg:grid lg:grid-cols-3">
