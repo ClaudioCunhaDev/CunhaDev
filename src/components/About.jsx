@@ -13,7 +13,7 @@ export const About = () => {
           <img
             src={dek}
             alt=""
-            className="w-[16rem] h-[12rem] rounded-3xl md:h-[30vh] md:w-[25rem] lg:h-[50vh] lg:w-[45rem] lg:rounded-2xl 2xl:h-[80%] min-[1920px]:w-[45rem] "
+            className="w-[18rem] h-[14rem] rounded-3xl md:h-[50vh] md:w-[25rem] lg:h-[50vh] lg:w-[45rem] lg:rounded-2xl 2xl:h-[80%] min-[1920px]:w-[45rem] "
           />
           <div className="divImg absolute right-0 bottom-0 ">
             <img
@@ -23,7 +23,7 @@ export const About = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col items-center gap-3 lg:items-start">
+      <div className="flex flex-col items-center gap-3 lg:items-start mt-3">
         <h2 className="text-blue-500 font-bold text-[2rem] md:mt-[7vh] lg:mt-0 ">
           ABOUT ME
         </h2>

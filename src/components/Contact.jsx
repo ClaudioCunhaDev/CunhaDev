@@ -1,5 +1,14 @@
 import React, { useEffect, useState } from "react";
 import emailjs from "@emailjs/browser";
+import {
+  ToastContainer,
+  toast,
+  Slide,
+  Zoom,
+  Flip,
+  Bounce,
+} from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 export const Contact = () => {
   const [name, setName] = useState("");
@@ -20,24 +29,88 @@ export const Contact = () => {
     setEmailError(false);
     setMessageError(false);
     setNumberError(false);
+
     try {
       e.preventDefault();
       if (name === "" && email === "" && message === "" && contact === "") {
         setVisible(true);
+        toast.error("Error: Invalid Inputs!", {
+          position: "top-center",
+          autoClose: 1000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          theme: "light",
+          transition: Zoom,
+        });
         return;
       } else if (name.length <= 1) {
+        toast.error("Error: Invalid Name Input!", {
+          position: "top-center",
+          autoClose: 1000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          theme: "light",
+        });
         setNameError(true);
         return;
       } else if (!email.match(/\w{2,}@[a-zA-Z]{4,}\.[a-z]{2,}/)) {
+        toast.error("Error: Invalid Email Input!", {
+          position: "top-center",
+          autoClose: 1000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          theme: "light",
+        });
         setEmailError(true);
         return;
       } else if (!contact.match(/\d{9,}/)) {
+        toast.error("Error: Invalid Contact Input!", {
+          position: "top-center",
+          autoClose: 1000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          theme: "light",
+        });
         setNumberError(true);
         return;
       } else if (message.length <= 5) {
+        toast.error("Error: Invalid Message Input!", {
+          position: "top-center",
+          autoClose: 1000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          theme: "light",
+        });
         setMessageError(true);
         return;
       }
+
+      toast.success("Email Sent!", {
+        position: "top-center",
+        transition: "flip",
+        autoClose: 1000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "light",
+      });
 
       const templateParams = {
         from_name: name,
@@ -77,7 +150,7 @@ export const Contact = () => {
           <div className="flex flex-col w-full items-center">
             <input
               className={`${
-                nameError && "border-red-500"
+                (nameError || visible) && "border-red-500"
               }  border-gray-300 border-2 min-w-[15rem] w-[50%] rounded-md px-3 py-2 mt-1 focus:outline-none focus:ring-blue-500 focus:border-blue-500`}
               type="text"
               placeholder="Name/Company"
@@ -93,7 +166,7 @@ export const Contact = () => {
           <div className="flex flex-col w-full items-center">
             <input
               className={`${
-                emailError && "border-red-500"
+                (emailError || visible) && "border-red-500"
               }  border-gray-300 border-2 min-w-[15rem] w-[50%] rounded-md px-3 py-2 mt-1 focus:outline-none focus:ring-blue-500 focus:border-blue-500`}
               type="text"
               placeholder="Email"
@@ -125,7 +198,7 @@ export const Contact = () => {
           <div className="flex flex-col w-full items-center">
             <textarea
               className={`${
-                messageError && "border-red-500"
+                (messageError || visible) && "border-red-500"
               }  border-gray-300 border-2 min-w-[15rem] h-[30vh] w-[50%] rounded-md px-3 py-2 mt-1 focus:outline-none focus:ring-blue-500 focus:border-blue-500`}
               placeholder="Write your message..."
               onChange={(e) => setMessage(e.target.value)}
@@ -148,6 +221,19 @@ export const Contact = () => {
           >
             Submit
           </button>
+          <ToastContainer
+            transition={Zoom}
+            position="top-center"
+            autoClose={1000}
+            hideProgressBar={false}
+            newestOnTop={false}
+            closeOnClick
+            rtl={false}
+            pauseOnFocusLoss
+            draggable
+            pauseOnHover
+            theme="light"
+          />
         </form>
       </div>
       <div className="bg-[#000000c0] min-h-[20vh] text-white font-bold text-[1rem] p-3 w-full text-center justify-center items-center flex flex-col gap-3 min-[1920px]:text-[2rem]">
