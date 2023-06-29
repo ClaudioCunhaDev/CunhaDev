@@ -4,7 +4,7 @@ import html from "../assets/skills/html.png";
 import css from "../assets/skills/css.svg";
 import bootstrap from "../assets/skills/bootstrap.jpg";
 import express from "../assets/skills/express.png";
-import mongodb from "../assets/skills/mongodb.png";
+import mongoDb from "../assets/skills/mongodb.png";
 import next from "../assets/skills/next.png";
 import node from "../assets/skills/node.png";
 import react from "../assets/skills/react.png";
@@ -37,7 +37,7 @@ export const Skills = () => (
       <IndividualSkill src={react} alt={"Icon React"} skill={"React"} />
       <IndividualSkill src={next} alt={"Icon Next"} skill={"Next"} />
       <IndividualSkill src={express} alt={"Icon Express"} skill={"Express"} />
-      <IndividualSkill src={mongodb} alt={"Icon MongoDb"} skill={"MongoDb"} />
+      <IndividualSkill src={mongoDb} alt={"Icon MongoDb"} skill={"MongoDb"} />
       <IndividualSkill src={node} alt={"Icon Node.js"} skill={"Node"} />
       <IndividualSkill src={uxui} alt={"Icon UX/UI"} skill={"UX/UI"} />
       <IndividualSkill src={vite} alt={"Icon Vite"} skill={"Vite"} />
