@@ -4,7 +4,7 @@ import html from "../assets/skills/html.png";
 import css from "../assets/skills/css.svg";
 import bootstrap from "../assets/skills/bootstrap.jpg";
 import express from "../assets/skills/express.png";
-import mongoDb from "../assets/skills/mongodb.png";
+import mongoDb from "../assets/skills/mongdb.png";
 import next from "../assets/skills/next.png";
 import node from "../assets/skills/node.png";
 import react from "../assets/skills/react.png";
