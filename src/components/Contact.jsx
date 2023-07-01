@@ -241,8 +241,10 @@ export const Contact = () => {
           />
         </form>
       </div>
-      <div className="bg-[#000000c0] min-h-[20vh] text-white font-bold text-[1rem] p-3 w-full text-center justify-center items-center flex flex-col gap-3 min-[1920px]:text-[2rem]">
-        <h2 className="">Copyright © 2023. All rights are reserved</h2>
+      <div className="bg-[#000000c0] min-h-[20vh] text-white font-bold text-[1rem] p-3 w-full text-center justify-center items-center flex flex-col gap-3 min-[1920px]:text-[2rem] ">
+        <h2 className="hover:drop-shadow-3xl">
+          Copyright © 2023. All rights are reserved
+        </h2>
       </div>
     </div>
   );

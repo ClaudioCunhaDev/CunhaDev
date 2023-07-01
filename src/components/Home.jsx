@@ -25,7 +25,7 @@ export const Home = () => {
             <div className="container">
               <div className="shape flex justify-center items-center border-[0.2rem]">
                 <img
-                  className="rounded-full border-x-[0.2rem] w-[220px] h-[220px] min-[1920px]:h-[300px] min-[1920px]:w-[300px]"
+                  className="rounded-full border-x-[0.2rem] w-[220px] h-[220px] min-[1920px]:h-[300px] min-[1920px]:w-[300px] hover:drop-shadow-3xl"
                   src={cunha}
                   alt=""
                 />
@@ -58,7 +58,7 @@ export const Home = () => {
                 </a>
               </button>
             </div>
-            <div className="flex gap-3 text-[2rem]">
+            <div className="flex gap-3 text-[2rem] ">
               <a href="https://www.linkedin.com/in/claudionogueiradacunha/">
                 <FaLinkedin />
               </a>
@@ -73,33 +73,33 @@ export const Home = () => {
             Tech Stack
           </h1>
           <div className="flex flex-col gap-3 pb-5 lg:flex-row ">
-            <div className="flex gap-3">
-              <div className="h-16 w-16 rounded-full border-2 bg-white flex justify-center items-center text-[1.7rem] min-[1920px]:text-[2.5rem] min-[1920px]:h-24 min-[1920px]:w-24">
+            <div className="flex gap-3 ">
+              <div className="h-16 w-16 rounded-full border-2 bg-white flex justify-center items-center text-[1.7rem] min-[1920px]:text-[2.5rem] min-[1920px]:h-24 min-[1920px]:w-24 hover:drop-shadow-3xl">
                 <IconHtml5 />
               </div>
-              <div className="h-16 w-16 rounded-full border-2 bg-white flex justify-center items-center text-[1.8rem] min-[1920px]:text-[2.5rem] min-[1920px]:h-24 min-[1920px]:w-24">
+              <div className="h-16 w-16 rounded-full border-2 bg-white flex justify-center items-center text-[1.8rem] min-[1920px]:text-[2.5rem] min-[1920px]:h-24 min-[1920px]:w-24 hover:drop-shadow-3xl">
                 <IconBxlCss3 />
               </div>
-              <div className="h-16 w-16 rounded-full border-2 bg-white flex justify-center items-center text-[1.2rem] min-[1920px]:text-[2.5rem] min-[1920px]:h-24 min-[1920px]:w-24">
+              <div className="h-16 w-16 rounded-full border-2 bg-white flex justify-center items-center text-[1.2rem] min-[1920px]:text-[2.5rem] min-[1920px]:h-24 min-[1920px]:w-24 hover:drop-shadow-3xl">
                 <IconJavascript />
               </div>
             </div>
             <div className="flex gap-3">
-              <div className="h-16 w-16 rounded-full border-2 bg-white flex justify-center items-center text-[1.7rem] min-[1920px]:text-[2.5rem] min-[1920px]:h-24 min-[1920px]:w-24">
+              <div className="h-16 w-16 rounded-full border-2 bg-white flex justify-center items-center text-[1.7rem] min-[1920px]:text-[2.5rem] min-[1920px]:h-24 min-[1920px]:w-24 hover:drop-shadow-3xl">
                 <IconLogoReact />
               </div>
-              <div className="h-16 w-16 rounded-full border-2 bg-white flex justify-center items-center text-[1.5rem] min-[1920px]:text-[2.5rem] min-[1920px]:h-24 min-[1920px]:w-24">
+              <div className="h-16 w-16 rounded-full border-2 bg-white flex justify-center items-center text-[1.5rem] min-[1920px]:text-[2.5rem] min-[1920px]:h-24 min-[1920px]:w-24 hover:drop-shadow-3xl">
                 <IconNext />
               </div>
-              <div className="h-16 w-16 rounded-full border-2 bg-white flex justify-center items-center text-[1.7rem] min-[1920px]:text-[2.5rem] min-[1920px]:h-24 min-[1920px]:w-24">
+              <div className="h-16 w-16 rounded-full border-2 bg-white flex justify-center items-center text-[1.7rem] min-[1920px]:text-[2.5rem] min-[1920px]:h-24 min-[1920px]:w-24 hover:drop-shadow-3xl">
                 <IconTailwindcss />
               </div>
             </div>
             <div className="flex gap-3">
-              <div className="h-16 w-16 rounded-full border-2 bg-white flex justify-center items-center text-[1.7rem] min-[1920px]:text-[2.5rem] min-[1920px]:h-24 min-[1920px]:w-24">
+              <div className="h-16 w-16 rounded-full border-2 bg-white flex justify-center items-center text-[1.7rem] min-[1920px]:text-[2.5rem] min-[1920px]:h-24 min-[1920px]:w-24 hover:drop-shadow-3xl">
                 <IconBootstrap />
               </div>
-              <div className="h-16 w-16 rounded-full border-2 bg-white flex justify-center items-center text-[1.7rem] min-[1920px]:text-[2.5rem] min-[1920px]:h-24 min-[1920px]:w-24">
+              <div className="h-16 w-16 rounded-full border-2 bg-white flex justify-center items-center text-[1.7rem] min-[1920px]:text-[2.5rem] min-[1920px]:h-24 min-[1920px]:w-24 hover:drop-shadow-3xl">
                 <IconSass />
               </div>
             </div>

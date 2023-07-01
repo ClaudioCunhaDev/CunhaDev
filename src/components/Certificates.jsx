@@ -9,7 +9,7 @@ export const Certificates = () => {
     >
       <h2 className="text-blue-500 font-bold text-[2rem]">CERTIFICATES</h2>
 
-      <div>
+      <div className="hover:drop-shadow-3xl">
         <Carousel />
       </div>
     </div>

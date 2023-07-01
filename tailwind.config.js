@@ -10,6 +10,9 @@ export default {
         corFundo2: "#FFFFFF",
         title: "#2d2e32",
       },
+      dropShadow: {
+        "3xl": "0 0 2rem #646cffaa",
+      },
     },
   },
   plugins: [],

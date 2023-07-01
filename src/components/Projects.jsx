@@ -15,7 +15,7 @@ export const Projects = () => {
       id="projects"
       className="bg-corFundo1 w-full pt-[10vh] pb-3 flex flex-col items-center gap-5 min-[2560px]:pb-3"
     >
-      <h2 className="text-blue-500 font-bold text-[2rem] 2xl:mb-[5vh]">
+      <h2 className=" text-blue-500 font-bold text-[2rem] 2xl:mb-[5vh]">
         PROJECTS
       </h2>
       <div className="flex flex-col gap-3 md:grid md:grid-cols-2 lg:grid-cols-3 lg:gap-5">
