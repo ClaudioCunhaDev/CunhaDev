@@ -7,6 +7,10 @@ import jamboree from "../assets/jamboree.png";
 import tasklist from "../assets/tasklist.png";
 import joker from "../assets/joker.png";
 import spacex from "../assets/spacex.jpg";
+import bibliotecaDeJogos from "../assets/bibliotecaDeJogos.png";
+import pokemons from "../assets/pokemons.png";
+import passwordGenerator from "../assets/passwordGenerator.png";
+import comments from "../assets/comments.png";
 import { ProjectComponent } from "./ProjectComponent";
 
 export const Projects = () => {
@@ -32,14 +36,44 @@ export const Projects = () => {
           github={"https://github.com/ClaudioCunhaDev/bytes4futureCoolors"}
         />
         <ProjectComponent
+          src={bibliotecaDeJogos}
+          alt={"Biblioteca de jogos - cunha"}
+          title={"Projeto front-end Biblioteca de Jogos:"}
+          description={
+            "Inserimos o nome e uma imagem, automaticamente é guardado no LocalStorage e sempre que atualizámos a página, vamos ao localStorage buscar os dados."
+          }
+          site={"https://cunha-some-library.vercel.app/"}
+          github={"https://github.com/ClaudioCunhaDev/someLibrary"}
+        />
+        <ProjectComponent
+          src={pokemons}
+          alt={"Pokemons - cunha"}
+          title={"Projeto front-end Pokemons:"}
+          description={
+            "Uso da API dos pokemons para obter os dados, se clicarmos no botão aparecem informações extra."
+          }
+          site={"https://cunha-pokemons.vercel.app/"}
+          github={"https://github.com/ClaudioCunhaDev/cunhaPokemons"}
+        />
+        <ProjectComponent
           src={countries}
           alt={"fetch countries cunha"}
           title={"Projeto front-end países e localização:"}
           description={
-            "requisição a uma API publica com localização de cada país"
+            "Requisição a uma API publica com localização de cada país"
           }
           site={"https://fetch-countries-mu.vercel.app/"}
           github={"https://github.com/ClaudioCunhaDev/fetchCountries"}
+        />
+        <ProjectComponent
+          src={passwordGenerator}
+          alt={"password Generator cunha"}
+          title={"Projeto front-end gerador de passwords:"}
+          description={
+            "Podemos gerar uma password que por default tem 12 caracteres, podemos definir o número de caracteres (dando check no input) e copiar a password gerada."
+          }
+          site={"https://password-generator-three-rosy.vercel.app/"}
+          github={"https://github.com/ClaudioCunhaDev/PasswordGenerator"}
         />
         <ProjectComponent
           src={jogoDoGalo}
@@ -68,6 +102,16 @@ export const Projects = () => {
           }
           site={"https://cunha-jogo-joker.vercel.app/"}
           github={"https://github.com/ClaudioCunhaDev/cunhaJogoJoker"}
+        />
+        <ProjectComponent
+          src={comments}
+          alt={"Página de Comentários"}
+          title={"Projeto front-end Página de Comentários:"}
+          description={
+            "Podemos fazer um comentário que é guardado no localStorage com a data de quando foi efetuado. Atualizando a página, vamos buscar os dados ao localStorage."
+          }
+          site={"https://cunha-comments.vercel.app/"}
+          github={"https://github.com/ClaudioCunhaDev/cunha-comments"}
         />
         <ProjectComponent
           src={landingPageSports}
