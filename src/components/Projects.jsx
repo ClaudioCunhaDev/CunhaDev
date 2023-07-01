@@ -11,6 +11,7 @@ import bibliotecaDeJogos from "../assets/bibliotecaDeJogos.png";
 import pokemons from "../assets/pokemons.png";
 import passwordGenerator from "../assets/passwordGenerator.png";
 import comments from "../assets/comments.png";
+import policeDepartment from "../assets/policeDepartment.png";
 import { ProjectComponent } from "./ProjectComponent";
 
 export const Projects = () => {
@@ -34,6 +35,16 @@ export const Projects = () => {
             "https://bytes4future-coolors-q1ds0hcii-claudiocunhadev.vercel.app/"
           }
           github={"https://github.com/ClaudioCunhaDev/bytes4futureCoolors"}
+        />
+        <ProjectComponent
+          src={policeDepartment}
+          alt={"police Department GTA RP - cunha"}
+          title={"Projeto front-end Police Department GTA RP:"}
+          description={
+            "Departamento da policia de um servidor de GTA RP. Feito com: React, typeScript e tailwind"
+          }
+          site={""}
+          github={"https://github.com/ClaudioCunhaDev/gtaRpPoliceDepartment"}
         />
         <ProjectComponent
           src={bibliotecaDeJogos}
@@ -130,6 +141,7 @@ export const Projects = () => {
           description={
             "Sistema de loggin, 2 tipos de conta (user e parceiro), criar eventos (so o parceiro), adicionar e remover eventos aos favoritos, ver lista de favoritos, adicionar dinheiro à carteira, comprar bilhetes, ver bilhetes comprados, devolver bilhete (reembolso para a carteira), apagar conta."
           }
+          site={""}
           github={"https://github.com/ClaudioCunhaDev/jamboree"}
         />
         <ProjectComponent
