@@ -156,7 +156,7 @@ export const Contact = () => {
             <input
               className={`${
                 (nameError || visible) && "border-red-500"
-              }  border-gray-300 border-2 min-w-[15rem] w-[50%] rounded-md px-3 py-2 mt-1 focus:outline-none focus:ring-blue-500 focus:border-blue-500`}
+              }  border-gray-300 border-2 min-w-[15rem] w-[50%] rounded-md px-3 py-2 mt-1 focus:outline-none focus:ring-blue-500 focus:border-blue-500 focus:drop-shadow-3xl`}
               type="text"
               placeholder="Name/Company"
               onChange={(e) => setName(e.target.value)}
@@ -172,7 +172,7 @@ export const Contact = () => {
             <input
               className={`${
                 (emailError || visible) && "border-red-500"
-              }  border-gray-300 border-2 min-w-[15rem] w-[50%] rounded-md px-3 py-2 mt-1 focus:outline-none focus:ring-blue-500 focus:border-blue-500`}
+              }  border-gray-300 border-2 min-w-[15rem] w-[50%] rounded-md px-3 py-2 mt-1 focus:outline-none focus:ring-blue-500 focus:border-blue-500 focus:drop-shadow-3xl`}
               type="text"
               placeholder="Email"
               onChange={(e) => setEmail(e.target.value)}
@@ -187,7 +187,7 @@ export const Contact = () => {
           </div>
           <div className="flex flex-col w-full items-center">
             <input
-              className="border-2 min-w-[15rem] w-[50%] border-gray-300 rounded-md px-3 py-2 mt-1 focus:outline-none focus:ring-blue-500 focus:border-blue-500"
+              className="border-2 min-w-[15rem] w-[50%] border-gray-300 rounded-md px-3 py-2 mt-1 focus:outline-none focus:ring-blue-500 focus:border-blue-500 focus:drop-shadow-3xl"
               type="text"
               placeholder="Phone number"
               onChange={(e) => setContact(e.target.value)}
@@ -204,7 +204,7 @@ export const Contact = () => {
             <textarea
               className={`${
                 (messageError || visible) && "border-red-500"
-              }  border-gray-300 border-2 min-w-[15rem] h-[30vh] w-[50%] rounded-md px-3 py-2 mt-1 focus:outline-none focus:ring-blue-500 focus:border-blue-500`}
+              }  border-gray-300 border-2 min-w-[15rem] h-[30vh] w-[50%] rounded-md px-3 py-2 mt-1 focus:outline-none focus:ring-blue-500 focus:border-blue-500 focus:drop-shadow-3xl`}
               placeholder="Write your message..."
               onChange={(e) => setMessage(e.target.value)}
               value={message}
