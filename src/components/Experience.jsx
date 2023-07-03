@@ -8,21 +8,21 @@ export const Experience = () => (
     </h2>
     <div className="min-h-[80vh] flex flex-col justify-around items-center">
       <IndividualExperience
-        title={"FRONT-END GTA-RP Police Department"}
+        title={"Front-End GTA-RP Police Department:"}
         description={
-          "Fiz a parte front-end do departamento da policia de um servidor deGTA-RP. Esta experiência melhorou muito as minhas skills de programação, mais precisamente: React, javascript, typescript tailwind"
+          "I worked on the front-end part of the police department of a GTA-RP server. This experience greatly improved my programming skills, specifically React, JavaScript, TypeScript, and Tailwind."
         }
       />
       <IndividualExperience
-        title={"Bootcamp Bytes4Future"}
+        title={"Bytes4Future Bootcamp:"}
         description={
-          "Fiz um Bootcamp intensivo de programação. Com esta experiência adquiri novas tecnologias, novos conceitos e melhorei algumas das minhas skills, tais como: NodeJs, Express, MongoDb, Next, React, JavaScript, UX/UI, Css"
+          "I completed an intensive programming bootcamp. Through this experience, I acquired new technologies, learned new concepts, and improved some of my skills, such as Node.js, Express, MongoDB, Next.js, React, JavaScript, UX/UI, and CSS."
         }
       />
       <IndividualExperience
         title={"OneBitCode Course"}
         description={
-          "Este curso fez parte do meu processo, com ele aprendi: Html, Css, Bootstrap, JavaScript, React"
+          "This course was part of my journey, and through it, I learned HTML, CSS, Bootstrap, JavaScript, and React."
         }
       />
     </div>

@@ -31,15 +31,15 @@ export const About = () => {
           A dedicated FullStack Developer <br /> based in Porto, Portugal
         </h2>
         <p className="min-w-[18rem] max-w-[27rem] px-3 text-gray-500 md:text-[1.2rem] md:w-[27rem]">
-          As a Junior FullStack Developer, I possess an impressive arsenal of
-          skills in HTML, CSS, JavaScript, React, Next, Tailwind, NodeJs,
-          Express, MongoDb, Bootstrap and SCSS. I excel in designing and
-          maintaining responsive websites that offer a smooth user experience.
-          My expertise lies in crafting dynamic, engaging interfaces through
-          writing clean and optimized code and utilizing cutting-edge
-          development tools and techniques. I am also a team player who thrives
-          in collaborating with cross-functional teams to produce outstanding
-          web applications.
+          Being a Junior FullStack Developer has given me the skillset needed to
+          code in HTML, CC, etc etc etc. It has also provided the correct tools
+          to offer users with the possibility of using well-designed and
+          responsive websites, all while maintaining a smooth experience. I
+          believe any good dev's strenghts lie in rightfuly crafting dynamic and
+          engaging interfaces through clean and optimized code lines. I would
+          describe myself as a team player whose goal is to collaborate with a
+          cross-functional team with one goal in common - to produce and develop
+          outstanding web applications.
         </p>
       </div>
     </div>

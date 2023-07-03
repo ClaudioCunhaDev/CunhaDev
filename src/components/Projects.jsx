@@ -27,9 +27,9 @@ export const Projects = () => {
         <ProjectComponent
           src={coolors}
           alt={"coolors cunha"}
-          title={"Projeto front-end Cores Aleatórias:"}
+          title={"Front-End Random Colors Project:"}
           description={
-            "2 tipos de forma para alterar as cores (tecla espaço e clique no botão), bloquear uma ou mais cores para que essas não alterem, copiar o código hexadecimal da cor."
+            "2 types of ways to change the colors (pressing the spacebar and clicking the button), lock one or more colors so that they don't change, copy the hexadecimal color code."
           }
           site={
             "https://bytes4future-coolors-q1ds0hcii-claudiocunhadev.vercel.app/"
@@ -39,9 +39,9 @@ export const Projects = () => {
         <ProjectComponent
           src={policeDepartment}
           alt={"police Department GTA RP - cunha"}
-          title={"Projeto front-end Police Department GTA RP:"}
+          title={"Front-End Police Department GTA RP Project:"}
           description={
-            "Departamento da policia de um servidor de GTA RP. Feito com: React, typeScript e tailwind"
+            "Police department of a GTA RP server. Built with: React, TypeScript, and Tailwind."
           }
           site={""}
           github={"https://github.com/ClaudioCunhaDev/gtaRpPoliceDepartment"}
@@ -49,9 +49,9 @@ export const Projects = () => {
         <ProjectComponent
           src={bibliotecaDeJogos}
           alt={"Biblioteca de jogos - cunha"}
-          title={"Projeto front-end Biblioteca de Jogos:"}
+          title={"Front-End Game Library Project:"}
           description={
-            "Inserimos o nome e uma imagem, automaticamente é guardado no LocalStorage e sempre que atualizámos a página, vamos ao localStorage buscar os dados."
+            "We input the name and an image, and it is automatically saved in LocalStorage. Whenever we refresh the page, we retrieve the data from LocalStorage."
           }
           site={"https://cunha-some-library.vercel.app/"}
           github={"https://github.com/ClaudioCunhaDev/someLibrary"}
@@ -59,9 +59,9 @@ export const Projects = () => {
         <ProjectComponent
           src={pokemons}
           alt={"Pokemons - cunha"}
-          title={"Projeto front-end Pokemons:"}
+          title={"Front-End Pokémon Project:"}
           description={
-            "Uso da API dos pokemons para obter os dados, se clicarmos no botão aparecem informações extra."
+            "Using the Pokémon API to fetch data, and extra information is displayed when clicking the button."
           }
           site={"https://cunha-pokemons.vercel.app/"}
           github={"https://github.com/ClaudioCunhaDev/cunhaPokemons"}
@@ -69,9 +69,9 @@ export const Projects = () => {
         <ProjectComponent
           src={countries}
           alt={"fetch countries cunha"}
-          title={"Projeto front-end países e localização:"}
+          title={"Front-End Countries and Location Project:"}
           description={
-            "Requisição a uma API publica com localização de cada país"
+            "Requesting a public API with the location of each country."
           }
           site={"https://fetch-countries-mu.vercel.app/"}
           github={"https://github.com/ClaudioCunhaDev/fetchCountries"}
@@ -79,9 +79,9 @@ export const Projects = () => {
         <ProjectComponent
           src={passwordGenerator}
           alt={"password Generator cunha"}
-          title={"Projeto front-end gerador de passwords:"}
+          title={"Front-End Password Generator Project:"}
           description={
-            "Podemos gerar uma password que por default tem 12 caracteres, podemos definir o número de caracteres (dando check no input) e copiar a password gerada."
+            "We can generate a password which, by default, has 12 characters. We can also define the number of characters (by checking the input) and copy the generated password."
           }
           site={"https://password-generator-three-rosy.vercel.app/"}
           github={"https://github.com/ClaudioCunhaDev/PasswordGenerator"}
@@ -89,9 +89,9 @@ export const Projects = () => {
         <ProjectComponent
           src={jogoDoGalo}
           alt={"jogo do galo"}
-          title={"Projeto front-end Jogo do Galo:"}
+          title={"Front-End Tic Tac Toe Game Project:"}
           description={
-            "Lógica do jogo do galo, um gatinho e uma cama ao invés de X e O. Ganha quem fizer 3 gatinhos ou 3 camas"
+            "Logic of the tic-tac-toe game, with a kitten and a bed instead of X and O. The winner is the one who gets 3 kittens or 3 beds in a row."
           }
           site={"https://cunha-jogo-do-galo.vercel.app/"}
           github={"https://github.com/ClaudioCunhaDev/cunhaJogoDoGalo"}
@@ -99,17 +99,17 @@ export const Projects = () => {
         <ProjectComponent
           src={spacex}
           alt={"site spacex"}
-          title={"Projeto front-end spacex:"}
-          description={"Projeto para treinar o uso de bootstrap e sass."}
+          title={"Front-End SpaceX Project:"}
+          description={"Project to practice using Bootstrap and Sass."}
           site={"https://cunhaspacex.vercel.app/index.html"}
           github={"https://github.com/ClaudioCunhaDev/cunhaspacex"}
         />
         <ProjectComponent
           src={joker}
           alt={"jogo do joker"}
-          title={"Projeto front-end Jogo do Joker:"}
+          title={"Front-End Joker Game Project:"}
           description={
-            "Lógica do jogo do joker do Vasco Palmeirim. À medida que for respondendo às perguntas ganha ou perde pontos."
+            "Logic of joker game. As you answer the questions, you gain or lose points."
           }
           site={"https://cunha-jogo-joker.vercel.app/"}
           github={"https://github.com/ClaudioCunhaDev/cunhaJogoJoker"}
@@ -117,9 +117,9 @@ export const Projects = () => {
         <ProjectComponent
           src={comments}
           alt={"Página de Comentários"}
-          title={"Projeto front-end Página de Comentários:"}
+          title={"Front-End Comment Page Project:"}
           description={
-            "Podemos fazer um comentário que é guardado no localStorage com a data de quando foi efetuado. Atualizando a página, vamos buscar os dados ao localStorage."
+            "We can leave a comment that is saved in LocalStorage along with the date it was made. When refreshing the page, we retrieve the data from LocalStorage."
           }
           site={"https://cunha-comments.vercel.app/"}
           github={"https://github.com/ClaudioCunhaDev/cunha-comments"}
@@ -127,9 +127,9 @@ export const Projects = () => {
         <ProjectComponent
           src={landingPageSports}
           alt={"Landing Page de Desportos"}
-          title={"Projeto front-end"}
+          title={"Front-End Project Landing Page"}
           description={
-            "Projeto para treinar e melhorar no css, com flexbox e grid"
+            "A project to practice and improve CSS, using flexbox and grid."
           }
           site={"https://landing-page-sports.vercel.app/"}
           github={"https://github.com/ClaudioCunhaDev/landingPageSports"}
@@ -137,9 +137,9 @@ export const Projects = () => {
         <ProjectComponent
           src={jamboree}
           alt={"jamboree cunha"}
-          title={"Projeto fullstack feito apenas para Iphone 12 Pro:"}
+          title={"Full-Stack Project Designed for iPhone 12 Pro:"}
           description={
-            "Sistema de loggin, 2 tipos de conta (user e parceiro), criar eventos (so o parceiro), adicionar e remover eventos aos favoritos, ver lista de favoritos, adicionar dinheiro à carteira, comprar bilhetes, ver bilhetes comprados, devolver bilhete (reembolso para a carteira), apagar conta."
+            "Login system, 2 types of accounts (user and partner), create events (partner only), add and remove events from favorites, view list of favorites, add money to wallet, purchase tickets, view purchased tickets, return tickets (refund to wallet), delete account."
           }
           site={""}
           github={"https://github.com/ClaudioCunhaDev/jamboree"}
@@ -147,9 +147,9 @@ export const Projects = () => {
         <ProjectComponent
           src={tasklist}
           alt={"tasklist cunha"}
-          title={"Projeto front-end tasklist:"}
+          title={"Front-End Task List Project:"}
           description={
-            "Adicionar item à lista, editar item, remover item, ao marcar uma tarefa como concluída o item é riscado."
+            "Add item to the list, edit item, remove item, when marking a task as completed, the item is crossed out."
           }
           site={"https://cunha-task-list.vercel.app/"}
           github={"https://github.com/ClaudioCunhaDev/cunhaTaskList"}
