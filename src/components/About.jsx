@@ -28,18 +28,19 @@ export const About = () => {
           ABOUT ME
         </h2>
         <h2 className="text-[1.3rem] text-title font-bold px-5 md:text-[1.7rem] md:px-0">
-          A dedicated FullStack Developer <br /> based in Porto, Portugal
+          A dedicated Front-End Developer <br /> based in Porto, Portugal
         </h2>
         <p className="min-w-[18rem] max-w-[27rem] px-3 text-gray-500 md:text-[1.2rem] md:w-[27rem]">
-          Being a Junior FullStack Developer has given me the skillset needed to
-          code in HTML, CC, etc etc etc. It has also provided the correct tools
-          to offer users with the possibility of using well-designed and
-          responsive websites, all while maintaining a smooth experience. I
-          believe any good dev's strenghts lie in rightfuly crafting dynamic and
-          engaging interfaces through clean and optimized code lines. I would
-          describe myself as a team player whose goal is to collaborate with a
-          cross-functional team with one goal in common - to produce and develop
-          outstanding web applications.
+          Being a Junior Front-End Developer has given me the skillset needed to
+          code in React, Next, Javascript, Tailwind, Sass, Bootstrap, HTML, CSS.
+          It has also provided the correct tools to offer users with the
+          possibility of using well-designed and responsive websites, all while
+          maintaining a smooth experience. I believe any good dev's strenghts
+          lie in rightfuly crafting dynamic and engaging interfaces through
+          clean and optimized code lines. I would describe myself as a team
+          player whose goal is to collaborate with a cross-functional team with
+          one goal in common - to produce and develop outstanding web
+          applications.
         </p>
       </div>
     </div>
