@@ -6,14 +6,14 @@ export const About = () => {
   return (
     <div
       id="about"
-      className="bg-corFundo2 w-full pt-[10vh] lg:flex lg:justify-center lg:gap-[3rem] lg:h-screen lg:items-center"
+      className="bg-corFundo2 w-full pt-[10vh] lg:pt-[10vh] lg:flex lg:justify-center lg:gap-[3rem] lg:h-screen lg:items-center"
     >
-      <div className="min-h-[14rem] flex justify-center items-center">
-        <div className="relative">
+      <div className="flex justify-center items-center">
+        <div className="relative ">
           <img
             src={dek}
             alt=""
-            className="w-[18rem] h-[14rem] rounded-3xl md:h-[50vh] md:w-[25rem] lg:h-[50vh] lg:w-[45rem] lg:rounded-2xl 2xl:h-[80%] min-[1920px]:w-[45rem] hover:drop-shadow-3xl"
+            className="w-[19rem] h-[21rem] rounded-3xl md:h-[50vh] md:w-[30rem] lg:h-[50vh] lg:w-[45rem] lg:rounded-2xl 2xl:h-[80%] min-[1920px]:w-[45rem] hover:drop-shadow-3xl"
           />
           <div className="divImg absolute right-0 bottom-0 ">
             <img
@@ -30,7 +30,7 @@ export const About = () => {
         <h2 className="text-[1.3rem] text-title font-bold px-5 md:text-[1.7rem] md:px-0">
           A dedicated Front-End Developer <br /> based in Porto, Portugal
         </h2>
-        <p className="min-w-[18rem] max-w-[27rem] px-3 text-gray-500 md:text-[1.2rem] md:w-[27rem]">
+        <p className="min-w-[18rem] max-w-[27rem] px-5 md:px-3 text-gray-500 md:text-[1.2rem] md:w-[27rem]">
           Being a Junior Front-End Developer has given me the skillset needed to
           code in React, Next, Javascript, Tailwind, Sass, Bootstrap, HTML, CSS.
           It has also provided the correct tools to offer users with the
