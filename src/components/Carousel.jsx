@@ -10,6 +10,7 @@ import HTML1 from "../assets/HTML1.png";
 import CSS1 from "../assets/CSS1.png";
 import CSSMODERNO1 from "../assets/CSSMODERNO1.png";
 import GITGITHUB1 from "../assets/GITGITHUB1.png";
+import React1 from "../assets/React.png";
 
 // Default theme
 import "@splidejs/react-splide/css";
@@ -31,6 +32,7 @@ const images = [
   GITGITHUB1,
   JSIV1,
   JSV1,
+  React1,
   bytes4future,
 ].reverse();
 
