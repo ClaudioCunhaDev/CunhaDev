@@ -38,7 +38,7 @@ const images = [
 
 export default () => {
   return (
-    <div className=" flex justify-center items-center">
+    <div className="flex justify-center items-center">
       <Splide
         options={{
           rewind: true,
@@ -63,15 +63,6 @@ export default () => {
           );
         })}
       </Splide>
-      <style>
-        {`
-        .custom-splide-arrow {
-          background-color: red;
-          color: white;
-          /* Outros estilos desejados */
-        }
-        `}
-      </style>
     </div>
   );
 };

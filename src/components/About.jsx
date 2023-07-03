@@ -6,14 +6,14 @@ export const About = () => {
   return (
     <div
       id="about"
-      className="bg-corFundo2 w-screen pt-[10vh] lg:pt-[10vh] lg:flex lg:justify-center lg:gap-[3rem] lg:h-screen lg:items-center"
+      className="bg-corFundo2 w-full pt-[10vh] lg:pt-[10vh] lg:flex lg:justify-center lg:gap-[3rem] lg:h-screen lg:items-center"
     >
-      <div className="flex justify-center items-center">
+      <div className="flex justify-center items-center hover:drop-shadow-3xl">
         <div className="relative">
           <img
             src={dek}
             alt=""
-            className="px-2 w-[100%] h-[21rem] rounded-3xl md:h-[50vh] md:w-[30rem] lg:h-[50vh] lg:w-[45rem] lg:rounded-2xl 2xl:h-[80%] min-[1920px]:w-[45rem] hover:drop-shadow-3xl"
+            className="px-2 w-[100%] h-[21rem] rounded-3xl md:h-[50vh] md:w-[30rem] lg:h-[50vh] lg:w-[45rem] lg:rounded-2xl 2xl:h-[80%] min-[1920px]:w-[45rem] "
           />
           <div className="divImg absolute right-0 bottom-0 ">
             <img

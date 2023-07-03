@@ -10,7 +10,7 @@ import { Experience } from "./components/Experience";
 
 function App() {
   return (
-    <div>
+    <div className="overflow-x-hidden">
       <NavBar />
       <Home />
       <About />
