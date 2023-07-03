@@ -17,7 +17,7 @@ export const Home = () => {
   return (
     <div
       id="home"
-      className="bg-corFundo1 min-h-[100vh] w-full pt-[10vh] lg:h-[100vh] lg:items-center lg:flex lg:flex-col"
+      className="bg-corFundo1 min-h-[100vh] w-screen pt-[10vh] lg:h-[100vh] lg:items-center lg:flex lg:flex-col"
     >
       <div className="h-full lg:items-center lg:flex lg:flex-col lg:justify-around">
         <div className="lg:flex lg:gap-3 lg:items-center lg:justify-center min-[1920px]:justify-between min-[1920px]:w-full  ">
