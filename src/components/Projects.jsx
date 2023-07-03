@@ -18,7 +18,7 @@ export const Projects = () => {
   return (
     <div
       id="projects"
-      className="bg-corFundo1 w-full pt-[10vh] pb-3 flex flex-col items-center gap-5 min-[2560px]:pb-3"
+      className="bg-corFundo1 w-screen pt-[10vh] pb-3 flex flex-col items-center gap-5 min-[2560px]:pb-3"
     >
       <h2 className=" text-blue-500 font-bold text-[2rem] 2xl:mb-[5vh]">
         PROJECTS

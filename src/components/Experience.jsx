@@ -2,7 +2,10 @@ import React from "react";
 import { IndividualExperience } from "./IndividualExperience";
 
 export const Experience = () => (
-  <div className="bg-corFundo1 pt-[10vh] min-h-[100vh] p-3" id="experience">
+  <div
+    className="bg-corFundo1 w-screen pt-[10vh] min-h-[100vh] p-3"
+    id="experience"
+  >
     <h2 className="text-blue-500 mb-3 text-center font-bold text-[2rem]">
       EXPERIENCE
     </h2>

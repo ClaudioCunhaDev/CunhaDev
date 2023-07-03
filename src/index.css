@@ -9,6 +9,12 @@
   --third: #2d2e32;
 }
 
+* {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
 .container {
   align-items: center;
   display: flex;

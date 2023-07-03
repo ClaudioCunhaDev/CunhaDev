@@ -15,7 +15,7 @@ import uxui from "../assets/skills/uxui.png";
 import { IndividualSkill } from "./IndividualSkill";
 
 export const Skills = () => (
-  <div className="bg-corFundo2 pt-[10vh] p-3" id="skills">
+  <div className="bg-corFundo2 w-screen pt-[10vh] p-3" id="skills">
     <h2 className="text-blue-500 mb-10 text-center font-bold text-[2rem]">
       SKILLS
     </h2>

@@ -144,7 +144,7 @@ export const Contact = () => {
   return (
     <div
       id="contact"
-      className="bg-corFundo1 relative w-full pt-[10vh] flex flex-col items-center gap-5"
+      className="bg-corFundo1 relative w-screen pt-[10vh] flex flex-col items-center gap-5"
     >
       <h2 className="text-blue-500 font-bold text-[2rem]">CONTACT ME</h2>
       <div className="flex w-full ">
