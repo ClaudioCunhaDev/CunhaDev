@@ -164,7 +164,7 @@ export const Contact = () => {
             />
             {nameError && (
               <span className=" text-red-500 h-1">
-                Preenche o nome corretamente.
+                Fill in the name correctly.
               </span>
             )}
           </div>
@@ -181,7 +181,7 @@ export const Contact = () => {
 
             {emailError && (
               <div className=" px-3 py-2 text-red-500">
-                <h2>Preenche o campo com um email válido.</h2>
+                <h2>Fill the field with a valid email address.</h2>
               </div>
             )}
           </div>
@@ -196,7 +196,7 @@ export const Contact = () => {
 
             {numberError && (
               <div className=" px-3 py-2 text-red-500">
-                <h2>Preenche o campo com um número válido.</h2>
+                <h2>Fill the field with a valid number.</h2>
               </div>
             )}
           </div>
@@ -211,13 +211,13 @@ export const Contact = () => {
             />
             {messageError && (
               <div className=" px-3 py-2 text-red-500">
-                <h2>Preenche o campo com uma mensagem.</h2>
+                <h2>Fill the field with a message.</h2>
               </div>
             )}
           </div>
           {visible && (
             <div className=" text-red-500">
-              <h2>Preenche todos os campos</h2>
+              <h2>Fill in all the fields.</h2>
             </div>
           )}
           <button
