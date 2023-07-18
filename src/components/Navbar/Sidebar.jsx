@@ -14,7 +14,7 @@ export default (props) => {
   };
 
   return (
-    <div className="custom-menu">
+    <div className="custom-menu lg:hidden">
       <Menu
         isOpen={state.menuOpen}
         onStateChange={(state) => handleStateChange(state)}
