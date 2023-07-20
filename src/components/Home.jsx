@@ -25,7 +25,7 @@ export const Home = () => {
             <div className="container">
               <div className="shape flex justify-center items-center border-[0.2rem]">
                 <img
-                  className="rounded-full border-x-[0.2rem] w-[220px] h-[220px] min-[1920px]:h-[300px] min-[1920px]:w-[300px] hover:drop-shadow-3xl"
+                  className="rounded-full border-x-[0.2rem] w-[220px] h-[220px] min-[1920px]:h-[300px] min-[1920px]:w-[300px]"
                   src={cunha}
                   alt=""
                 />

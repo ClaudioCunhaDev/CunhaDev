@@ -5,12 +5,11 @@ function NavBar() {
   return (
     <div className="h-[10vh] fixed bg-white w-full border-b-2 z-20 lg:flex lg:items-center lg:justify-between">
       <Sidebar pageWrapId={"page-wrap"} outerContainerId={"outer-container"} />
-      <a href="#home">
-        <h1 className="text-[2rem] pl-3 pt-2 font-semibold min-[1920px]:pt-[3vh] lg:pt-0">
-          CunhaDev
-        </h1>
+      <a href="#home" className="text-[2.3rem] pl-3 font-semibold lg:pt-0">
+        CunhaDev
       </a>
-      <div className="hidden lg:flex lg:gap-3 lg:text-[1.5rem] font-semibold min-[1920px]:pt-[3vh] lg:pr-3">
+
+      <div className="hidden lg:flex lg:gap-3 lg:text-[1.5rem] font-semibold lg:pr-3 xl:gap-5">
         <a className="hover:text-blue-500" href="#home">
           Home
         </a>
