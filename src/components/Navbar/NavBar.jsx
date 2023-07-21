@@ -7,27 +7,51 @@ function NavBar() {
 
   const handleClickHome = () => {
     setNavBarColor("home");
+    setTimeout(() => {
+      setNavBarColor("");
+    }, 1000 * 4);
   };
   const handleClickAboutMe = () => {
     setNavBarColor("aboutme");
+    setTimeout(() => {
+      setNavBarColor("");
+    }, 1000 * 4);
   };
   const handleClickProjects = () => {
     setNavBarColor("projects");
+    setTimeout(() => {
+      setNavBarColor("");
+    }, 1000 * 4);
   };
   const handleClickSkills = () => {
     setNavBarColor("skills");
+    setTimeout(() => {
+      setNavBarColor("");
+    }, 1000 * 4);
   };
   const handleClickExperience = () => {
     setNavBarColor("experience");
+    setTimeout(() => {
+      setNavBarColor("");
+    }, 1000 * 4);
   };
   const handleClickCertificates = () => {
     setNavBarColor("certificates");
+    setTimeout(() => {
+      setNavBarColor("");
+    }, 1000 * 4);
   };
   const handleClickContact = () => {
     setNavBarColor("contacts");
+    setTimeout(() => {
+      setNavBarColor("");
+    }, 1000 * 4);
   };
   const handleClickCunha = () => {
     setNavBarColor("");
+    setTimeout(() => {
+      setNavBarColor("");
+    }, 1000 * 4);
   };
 
   return (
@@ -35,13 +59,13 @@ function NavBar() {
       <Sidebar pageWrapId={"page-wrap"} outerContainerId={"outer-container"} />
       <a
         href="#home"
-        className="text-[2.3rem] pl-3 font-semibold lg:pt-0 hover:text-blue-500"
+        className="text-[2.3rem] pl-4 font-semibold lg:pt-0 hover:text-blue-500"
         onClick={() => handleClickCunha()}
       >
         CunhaDev
       </a>
 
-      <div className="hidden lg:flex lg:gap-1 lg:text-[1.5rem] font-semibold lg:pr-3">
+      <div className="hidden lg:flex lg:gap-1 lg:text-[1.5rem] font-semibold lg:pr-4">
         <a
           className={`hover:text-blue-500 p-2 ${
             navBarColor === "home" ? "text-blue-500" : ""
