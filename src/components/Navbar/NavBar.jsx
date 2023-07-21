@@ -4,54 +4,32 @@ import { useState } from "react";
 
 function NavBar() {
   const [navBarColor, setNavBarColor] = useState("");
+
   const handleClickHome = () => {
     setNavBarColor("home");
-    setTimeout(() => {
-      setNavBarColor("");
-    }, 1000 * 3);
   };
   const handleClickAboutMe = () => {
     setNavBarColor("aboutme");
-    setTimeout(() => {
-      setNavBarColor("");
-    }, 1000 * 3);
   };
   const handleClickProjects = () => {
     setNavBarColor("projects");
-    setTimeout(() => {
-      setNavBarColor("");
-    }, 1000 * 3);
   };
   const handleClickSkills = () => {
     setNavBarColor("skills");
-    setTimeout(() => {
-      setNavBarColor("");
-    }, 1000 * 3);
   };
   const handleClickExperience = () => {
     setNavBarColor("experience");
-    setTimeout(() => {
-      setNavBarColor("");
-    }, 1000 * 3);
   };
   const handleClickCertificates = () => {
     setNavBarColor("certificates");
-    setTimeout(() => {
-      setNavBarColor("");
-    }, 1000 * 3);
   };
   const handleClickContact = () => {
     setNavBarColor("contacts");
-    setTimeout(() => {
-      setNavBarColor("");
-    }, 1000 * 3);
   };
   const handleClickCunha = () => {
     setNavBarColor("");
-    setTimeout(() => {
-      setNavBarColor("");
-    }, 1000 * 3);
   };
+
   return (
     <div className="h-[10vh] fixed bg-white w-full border-b-2 z-20 lg:flex lg:items-center lg:justify-between">
       <Sidebar pageWrapId={"page-wrap"} outerContainerId={"outer-container"} />
