@@ -12,6 +12,7 @@ import pokemons from "../assets/pokemons.png";
 import passwordGenerator from "../assets/passwordGenerator.png";
 import comments from "../assets/comments.png";
 import policeDepartment from "../assets/policeDepartment.png";
+import pagination from "../assets/pagination.png";
 import { ProjectComponent } from "./ProjectComponent";
 
 export const Projects = () => {
@@ -103,6 +104,16 @@ export const Projects = () => {
           description={"Project to practice using Bootstrap and Sass."}
           site={"https://cunhaspacex.vercel.app/index.html"}
           github={"https://github.com/ClaudioCunhaDev/cunhaspacex"}
+        />
+        <ProjectComponent
+          src={pagination}
+          alt={"site with pagination"}
+          title={"Front-End API request + Pagination:"}
+          description={
+            "Project to practice API requests and pagination with states."
+          }
+          site={"https://pagination-react-cunha.vercel.app/"}
+          github={"https://github.com/ClaudioCunhaDev/paginationReact"}
         />
         <ProjectComponent
           src={joker}
