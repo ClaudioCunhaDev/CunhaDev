@@ -59,10 +59,13 @@ export const Home = () => {
               </button>
             </div>
             <div className="flex gap-3 text-[2rem] ">
-              <a href="https://www.linkedin.com/in/claudionogueiradacunha/">
+              <a
+                href="https://www.linkedin.com/in/claudionogueiradacunha/"
+                target="_blank"
+              >
                 <FaLinkedin />
               </a>
-              <a href="https://github.com/ClaudioCunhaDev">
+              <a target="_blank" href="https://github.com/ClaudioCunhaDev">
                 <FaGithub />
               </a>
             </div>
