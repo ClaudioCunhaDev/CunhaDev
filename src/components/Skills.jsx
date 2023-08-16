@@ -1,5 +1,6 @@
 import React from "react";
 import js from "../assets/skills/js.png";
+import typescript from "../assets/skills/typescript.png";
 import html from "../assets/skills/html.png";
 import css from "../assets/skills/css.svg";
 import bootstrap from "../assets/skills/bootstrap.jpg";
@@ -34,6 +35,11 @@ export const Skills = () => (
         skill={"Tailwind"}
       />
       <IndividualSkill src={js} alt={"Icon JavaScript"} skill={"JavaScript"} />
+      <IndividualSkill
+        src={typescript}
+        alt={"Icon typescript"}
+        skill={"TypeScript"}
+      />
       <IndividualSkill src={react} alt={"Icon React"} skill={"React"} />
       <IndividualSkill src={next} alt={"Icon Next"} skill={"Next"} />
       <IndividualSkill src={express} alt={"Icon Express"} skill={"Express"} />

@@ -11,6 +11,7 @@ import IconNext from "../assets/IconNext";
 import IconTailwindcss from "../assets/IconTailwindcss";
 import IconBootstrap from "../assets/IconBootstrap";
 import IconSass from "../assets/IconSass";
+import IconTypeScript from "../assets/IconTypeScript";
 import { MaquinaDeEscrever } from "./MaquinaDeEscrever";
 
 export const Home = () => {
@@ -89,16 +90,19 @@ export const Home = () => {
             </div>
             <div className="flex gap-3">
               <div className="h-16 w-16 rounded-full border-2 bg-white flex justify-center items-center text-[1.7rem] min-[1920px]:text-[2.5rem] min-[1920px]:h-24 min-[1920px]:w-24 hover:drop-shadow-3xl">
+                <IconTypeScript />
+              </div>
+              <div className="h-16 w-16 rounded-full border-2 bg-white flex justify-center items-center text-[1.7rem] min-[1920px]:text-[2.5rem] min-[1920px]:h-24 min-[1920px]:w-24 hover:drop-shadow-3xl">
                 <IconLogoReact />
               </div>
               <div className="h-16 w-16 rounded-full border-2 bg-white flex justify-center items-center text-[1.5rem] min-[1920px]:text-[2.5rem] min-[1920px]:h-24 min-[1920px]:w-24 hover:drop-shadow-3xl">
                 <IconNext />
               </div>
+            </div>
+            <div className="flex gap-3">
               <div className="h-16 w-16 rounded-full border-2 bg-white flex justify-center items-center text-[1.7rem] min-[1920px]:text-[2.5rem] min-[1920px]:h-24 min-[1920px]:w-24 hover:drop-shadow-3xl">
                 <IconTailwindcss />
               </div>
-            </div>
-            <div className="flex gap-3">
               <div className="h-16 w-16 rounded-full border-2 bg-white flex justify-center items-center text-[1.7rem] min-[1920px]:text-[2.5rem] min-[1920px]:h-24 min-[1920px]:w-24 hover:drop-shadow-3xl">
                 <IconBootstrap />
               </div>
