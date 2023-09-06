@@ -13,6 +13,7 @@ import passwordGenerator from "../assets/passwordGenerator.png";
 import comments from "../assets/comments.png";
 import policeDepartment from "../assets/policeDepartment.png";
 import pagination from "../assets/pagination.png";
+import tours from "../assets/tours.png";
 import { ProjectComponent } from "./ProjectComponent";
 
 export const Projects = () => {
@@ -38,6 +39,14 @@ export const Projects = () => {
           github={"https://github.com/ClaudioCunhaDev/bytes4futureCoolors"}
         />
         <ProjectComponent
+          src={tours}
+          alt={"tours cunha"}
+          title={"Front-End Tours Project"}
+          description={"Fetch to API, Search bar and delete Tour."}
+          site={"https://cunha-tours-kxdu6jqh3-claudiocunhadev.vercel.app/"}
+          github={"https://github.com/ClaudioCunhaDev/tours"}
+        />
+        <ProjectComponent
           src={policeDepartment}
           alt={"police Department GTA RP - cunha"}
           title={"Front-End Police Department GTA RP Project:"}
@@ -46,6 +55,16 @@ export const Projects = () => {
           }
           site={""}
           github={"https://github.com/ClaudioCunhaDev/gtaRpPoliceDepartment"}
+        />
+        <ProjectComponent
+          src={jamboree}
+          alt={"jamboree cunha"}
+          title={"Full-Stack Project Designed for iPhone 12 Pro:"}
+          description={
+            "Login system, 2 types of accounts (user and partner), create events (partner only), add and remove events from favorites, view list of favorites, add money to wallet, purchase tickets, view purchased tickets, return tickets (refund to wallet), delete account."
+          }
+          site={""}
+          github={"https://github.com/ClaudioCunhaDev/jamboree"}
         />
         <ProjectComponent
           src={bibliotecaDeJogos}
@@ -57,46 +76,7 @@ export const Projects = () => {
           site={"https://cunha-some-library.vercel.app/"}
           github={"https://github.com/ClaudioCunhaDev/someLibrary"}
         />
-        <ProjectComponent
-          src={pokemons}
-          alt={"Pokemons - cunha"}
-          title={"Front-End Pokémon Project:"}
-          description={
-            "Using the Pokémon API to fetch data, and extra information is displayed when clicking the button."
-          }
-          site={"https://cunha-pokemons.vercel.app/"}
-          github={"https://github.com/ClaudioCunhaDev/cunhaPokemons"}
-        />
-        <ProjectComponent
-          src={countries}
-          alt={"fetch countries cunha"}
-          title={"Front-End Countries and Location Project:"}
-          description={
-            "Requesting a public API with the location of each country."
-          }
-          site={"https://fetch-countries-mu.vercel.app/"}
-          github={"https://github.com/ClaudioCunhaDev/fetchCountries"}
-        />
-        <ProjectComponent
-          src={passwordGenerator}
-          alt={"password Generator cunha"}
-          title={"Front-End Password Generator Project:"}
-          description={
-            "We can generate a password which, by default, has 12 characters. We can also define the number of characters (by checking the input) and copy the generated password."
-          }
-          site={"https://password-generator-three-rosy.vercel.app/"}
-          github={"https://github.com/ClaudioCunhaDev/PasswordGenerator"}
-        />
-        <ProjectComponent
-          src={jogoDoGalo}
-          alt={"jogo do galo"}
-          title={"Front-End Tic Tac Toe Game Project:"}
-          description={
-            "Logic of the tic-tac-toe game, with a kitten and a bed instead of X and O. The winner is the one who gets 3 kittens or 3 beds in a row."
-          }
-          site={"https://cunha-jogo-do-galo.vercel.app/"}
-          github={"https://github.com/ClaudioCunhaDev/cunhaJogoDoGalo"}
-        />
+
         <ProjectComponent
           src={spacex}
           alt={"site spacex"}
@@ -115,6 +95,47 @@ export const Projects = () => {
           site={"https://pagination-react-cunha.vercel.app/"}
           github={"https://github.com/ClaudioCunhaDev/paginationReact"}
         />
+        <ProjectComponent
+          src={passwordGenerator}
+          alt={"password Generator cunha"}
+          title={"Front-End Password Generator Project:"}
+          description={
+            "We can generate a password which, by default, has 12 characters. We can also define the number of characters (by checking the input) and copy the generated password."
+          }
+          site={"https://password-generator-three-rosy.vercel.app/"}
+          github={"https://github.com/ClaudioCunhaDev/PasswordGenerator"}
+        />
+        <ProjectComponent
+          src={pokemons}
+          alt={"Pokemons - cunha"}
+          title={"Front-End Pokémon Project:"}
+          description={
+            "Using the Pokémon API to fetch data, and extra information is displayed when clicking the button."
+          }
+          site={"https://cunha-pokemons.vercel.app/"}
+          github={"https://github.com/ClaudioCunhaDev/cunhaPokemons"}
+        />
+        <ProjectComponent
+          src={jogoDoGalo}
+          alt={"jogo do galo"}
+          title={"Front-End Tic Tac Toe Game Project:"}
+          description={
+            "Logic of the tic-tac-toe game, with a kitten and a bed instead of X and O. The winner is the one who gets 3 kittens or 3 beds in a row."
+          }
+          site={"https://cunha-jogo-do-galo.vercel.app/"}
+          github={"https://github.com/ClaudioCunhaDev/cunhaJogoDoGalo"}
+        />
+        <ProjectComponent
+          src={countries}
+          alt={"fetch countries cunha"}
+          title={"Front-End Countries and Location Project:"}
+          description={
+            "Requesting a public API with the location of each country."
+          }
+          site={"https://fetch-countries-mu.vercel.app/"}
+          github={"https://github.com/ClaudioCunhaDev/fetchCountries"}
+        />
+
         <ProjectComponent
           src={joker}
           alt={"jogo do joker"}
@@ -145,16 +166,7 @@ export const Projects = () => {
           site={"https://landing-page-sports.vercel.app/"}
           github={"https://github.com/ClaudioCunhaDev/landingPageSports"}
         />
-        <ProjectComponent
-          src={jamboree}
-          alt={"jamboree cunha"}
-          title={"Full-Stack Project Designed for iPhone 12 Pro:"}
-          description={
-            "Login system, 2 types of accounts (user and partner), create events (partner only), add and remove events from favorites, view list of favorites, add money to wallet, purchase tickets, view purchased tickets, return tickets (refund to wallet), delete account."
-          }
-          site={""}
-          github={"https://github.com/ClaudioCunhaDev/jamboree"}
-        />
+
         <ProjectComponent
           src={tasklist}
           alt={"tasklist cunha"}
