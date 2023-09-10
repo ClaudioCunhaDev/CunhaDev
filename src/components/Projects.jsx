@@ -14,6 +14,7 @@ import comments from "../assets/comments.png";
 import policeDepartment from "../assets/policeDepartment.png";
 import pagination from "../assets/pagination.png";
 import tours from "../assets/tours.png";
+import trafficLight from "../assets/trafficLight.png";
 import { ProjectComponent } from "./ProjectComponent";
 
 export const Projects = () => {
@@ -76,7 +77,6 @@ export const Projects = () => {
           site={"https://cunha-some-library.vercel.app/"}
           github={"https://github.com/ClaudioCunhaDev/someLibrary"}
         />
-
         <ProjectComponent
           src={spacex}
           alt={"site spacex"}
@@ -104,6 +104,14 @@ export const Projects = () => {
           }
           site={"https://password-generator-three-rosy.vercel.app/"}
           github={"https://github.com/ClaudioCunhaDev/PasswordGenerator"}
+        />
+        <ProjectComponent
+          src={passwordGenerator}
+          alt={"Traffic Light"}
+          title={"Front-End Traffic Light Project:"}
+          description={"We can click on the color and it will be displayed"}
+          site={"https://traffic-light-bice.vercel.app/"}
+          github={"https://github.com/ClaudioCunhaDev/trafficLight"}
         />
         <ProjectComponent
           src={pokemons}
