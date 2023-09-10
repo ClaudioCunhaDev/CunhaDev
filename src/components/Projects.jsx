@@ -55,7 +55,7 @@ export const Projects = () => {
             "Police department of a GTA RP server. Built with: React, TypeScript, and Tailwind."
           }
           site={""}
-          github={"https://github.com/ClaudioCunhaDev/gtaRpPoliceDepartment"}
+          github={"https://github.com/ClaudioCunhaDev/PD"}
         />
         <ProjectComponent
           src={jamboree}
