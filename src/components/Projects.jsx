@@ -106,7 +106,7 @@ export const Projects = () => {
           github={"https://github.com/ClaudioCunhaDev/PasswordGenerator"}
         />
         <ProjectComponent
-          src={passwordGenerator}
+          src={trafficLight}
           alt={"Traffic Light"}
           title={"Front-End Traffic Light Project:"}
           description={"We can click on the color and it will be displayed"}
