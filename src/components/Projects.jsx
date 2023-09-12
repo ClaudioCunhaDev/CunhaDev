@@ -15,6 +15,7 @@ import policeDepartment from "../assets/policeDepartment.png";
 import pagination from "../assets/pagination.png";
 import tours from "../assets/tours.png";
 import trafficLight from "../assets/trafficLight.png";
+import clickormove from "../assets/clickormove.png";
 import { ProjectComponent } from "./ProjectComponent";
 
 export const Projects = () => {
@@ -46,6 +47,16 @@ export const Projects = () => {
           description={"Fetch to API, Search bar and delete Tour."}
           site={"https://cunha-tours-kxdu6jqh3-claudiocunhadev.vercel.app/"}
           github={"https://github.com/ClaudioCunhaDev/tours"}
+        />
+        <ProjectComponent
+          src={clickormove}
+          alt={"Click Or Move - Cunha"}
+          title={`Front-End "mini-game" Click or Move`}
+          description={
+            "Mini board game for mobile or desktop, we can click and paint a circle, move and paint a circle, remove last circle and add last circle"
+          }
+          site={"https://clickormove.vercel.app/"}
+          github={"https://github.com/ClaudioCunhaDev/clickormove"}
         />
         <ProjectComponent
           src={policeDepartment}
