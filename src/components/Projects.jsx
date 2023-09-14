@@ -16,6 +16,7 @@ import pagination from "../assets/pagination.png";
 import tours from "../assets/tours.png";
 import trafficLight from "../assets/trafficLight.png";
 import clickormove from "../assets/clickormove.png";
+import progressBar from "../assets/progressBar.png";
 import { ProjectComponent } from "./ProjectComponent";
 
 export const Projects = () => {
@@ -115,6 +116,16 @@ export const Projects = () => {
           }
           site={"https://password-generator-three-rosy.vercel.app/"}
           github={"https://github.com/ClaudioCunhaDev/PasswordGenerator"}
+        />
+        <ProjectComponent
+          src={progressBar}
+          alt={"Form with Progress Bar"}
+          title={"Front-End Form and ProgressBar"}
+          description={
+            "We can complete the fiels and see the progress bar moving forward; When we submit, the inputs value and progress bar reset."
+          }
+          site={"https://cunha-progress-bar.vercel.app/"}
+          github={"https://github.com/ClaudioCunhaDev/cunha-progress-bar"}
         />
         <ProjectComponent
           src={trafficLight}
