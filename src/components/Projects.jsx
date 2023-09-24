@@ -17,6 +17,8 @@ import tours from "../assets/tours.png";
 import trafficLight from "../assets/trafficLight.png";
 import clickormove from "../assets/clickormove.png";
 import progressBar from "../assets/progressBar.png";
+import dragonball from "../assets/dragonball.png";
+import valorant from "../assets/valorant.png";
 import { ProjectComponent } from "./ProjectComponent";
 
 export const Projects = () => {
@@ -60,6 +62,26 @@ export const Projects = () => {
           github={"https://github.com/ClaudioCunhaDev/clickormove"}
         />
         <ProjectComponent
+          src={valorant}
+          alt={"Valorant - Cunha"}
+          title={`Front-End Valorant Info`}
+          description={
+            "Request to Valorant API, we can see all info about agents, maps and weapons."
+          }
+          site={"https://cunha-valorant.vercel.app/"}
+          github={"https://github.com/ClaudioCunhaDev/cunha-valorant"}
+        />
+        <ProjectComponent
+          src={progressBar}
+          alt={"Form with Progress Bar"}
+          title={"Front-End Form and ProgressBar"}
+          description={
+            "We can complete the fiels and see the progress bar moving forward; When we submit, the inputs value and progress bar reset."
+          }
+          site={"https://cunha-progress-bar.vercel.app/"}
+          github={"https://github.com/ClaudioCunhaDev/cunha-progress-bar"}
+        />
+        <ProjectComponent
           src={policeDepartment}
           alt={"police Department GTA RP - cunha"}
           title={"Front-End Police Department GTA RP Project:"}
@@ -79,6 +101,7 @@ export const Projects = () => {
           site={""}
           github={"https://github.com/ClaudioCunhaDev/jamboree"}
         />
+
         <ProjectComponent
           src={bibliotecaDeJogos}
           alt={"Biblioteca de jogos - cunha"}
@@ -118,22 +141,32 @@ export const Projects = () => {
           github={"https://github.com/ClaudioCunhaDev/PasswordGenerator"}
         />
         <ProjectComponent
-          src={progressBar}
-          alt={"Form with Progress Bar"}
-          title={"Front-End Form and ProgressBar"}
-          description={
-            "We can complete the fiels and see the progress bar moving forward; When we submit, the inputs value and progress bar reset."
-          }
-          site={"https://cunha-progress-bar.vercel.app/"}
-          github={"https://github.com/ClaudioCunhaDev/cunha-progress-bar"}
-        />
-        <ProjectComponent
           src={trafficLight}
           alt={"Traffic Light"}
           title={"Front-End Traffic Light Project:"}
           description={"We can click on the color and it will be displayed"}
           site={"https://traffic-light-bice.vercel.app/"}
           github={"https://github.com/ClaudioCunhaDev/trafficLight"}
+        />
+        <ProjectComponent
+          src={joker}
+          alt={"jogo do joker"}
+          title={"Front-End Joker Game Project:"}
+          description={
+            "Logic of joker game. As you answer the questions, you gain or lose points."
+          }
+          site={"https://cunha-jogo-joker.vercel.app/"}
+          github={"https://github.com/ClaudioCunhaDev/cunhaJogoJoker"}
+        />
+        <ProjectComponent
+          src={comments}
+          alt={"Página de Comentários"}
+          title={"Front-End Comment Page Project:"}
+          description={
+            "We can leave a comment that is saved in LocalStorage along with the date it was made. When refreshing the page, we retrieve the data from LocalStorage."
+          }
+          site={"https://cunha-comments.vercel.app/"}
+          github={"https://github.com/ClaudioCunhaDev/cunha-comments"}
         />
         <ProjectComponent
           src={pokemons}
@@ -144,6 +177,16 @@ export const Projects = () => {
           }
           site={"https://cunha-pokemons.vercel.app/"}
           github={"https://github.com/ClaudioCunhaDev/cunhaPokemons"}
+        />
+        <ProjectComponent
+          src={dragonball}
+          alt={"DragonBall - Cunha"}
+          title={`Front-End Dragon Ball`}
+          description={
+            "The sound and gif of each transformation (only 3 characters)"
+          }
+          site={"https://cunha-dragon-ball.vercel.app/"}
+          github={"https://github.com/ClaudioCunhaDev/CunhaDragonBall"}
         />
         <ProjectComponent
           src={jogoDoGalo}
@@ -164,27 +207,6 @@ export const Projects = () => {
           }
           site={"https://fetch-countries-mu.vercel.app/"}
           github={"https://github.com/ClaudioCunhaDev/fetchCountries"}
-        />
-
-        <ProjectComponent
-          src={joker}
-          alt={"jogo do joker"}
-          title={"Front-End Joker Game Project:"}
-          description={
-            "Logic of joker game. As you answer the questions, you gain or lose points."
-          }
-          site={"https://cunha-jogo-joker.vercel.app/"}
-          github={"https://github.com/ClaudioCunhaDev/cunhaJogoJoker"}
-        />
-        <ProjectComponent
-          src={comments}
-          alt={"Página de Comentários"}
-          title={"Front-End Comment Page Project:"}
-          description={
-            "We can leave a comment that is saved in LocalStorage along with the date it was made. When refreshing the page, we retrieve the data from LocalStorage."
-          }
-          site={"https://cunha-comments.vercel.app/"}
-          github={"https://github.com/ClaudioCunhaDev/cunha-comments"}
         />
         <ProjectComponent
           src={landingPageSports}
